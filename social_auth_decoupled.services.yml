@@ -1,0 +1,17 @@
+services:
+  social_auth_decoupled.user_manager:
+    class: Drupal\social_auth_decoupled\SocialAuthDecoupledUserManager
+    arguments:
+      - '@config.factory'
+      - '@logger.factory'
+      - '@event_dispatcher'
+      - '@entity_type.manager'
+      - '@entity_field.manager'
+      - '@token'
+      - '@transliteration'
+      - '@language_manager'
+      - '@router.route_provider'
+      - '@session'
+    calls:
+      - [setCsrfToken, ['@csrf_token']]
+      - [setSerializer, ['@serializer']]

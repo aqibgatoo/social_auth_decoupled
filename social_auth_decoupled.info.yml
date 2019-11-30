@@ -1,0 +1,8 @@
+name: Social auth decoupled
+type: module
+description: 'Social auth decoupled base module.'
+package: 'Social'
+core: 8.x
+dependencies:
+  - social_auth:social_auth
+  - drupal:system (>=8.7.0)
