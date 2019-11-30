@@ -1,0 +1,13 @@
+{
+    "name": "drupal/social_auth_decoupled",
+    "type": "drupal-module",
+    "description": "Social auth decoupled.",
+    "homepage": "https://www.drupal.org/project/social_auth_decoupled",
+    "license": "GPL-2.0+",
+    "require": {
+        "php": ">=7.0.8",
+        "drupal/core": "^8.7",
+        "drupal/social_auth": "^2.0"
+    },
+    "minimum-stability": "dev"
+}
