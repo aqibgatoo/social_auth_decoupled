@@ -6,7 +6,7 @@
     "license": "GPL-2.0+",
     "require": {
         "php": ">=7.0.8",
-        "drupal/core": "^8.7",
+        "drupal/core": "^9.0",
         "drupal/social_auth": "^1.0"
     },
     "minimum-stability": "dev"
