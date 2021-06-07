@@ -1,5 +1,5 @@
 {
-    "name": "aqibgatoo/social_auth_decoupled",
+    "name": "drupal/social_auth_decoupled",
     "type": "drupal-module",
     "description": "Social auth decoupled.",
     "homepage": "https://www.drupal.org/project/social_auth_decoupled",
